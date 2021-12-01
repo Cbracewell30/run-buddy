@@ -13,6 +13,9 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+flex-wrap: wrap;
+justify-content:space-between
 }
 
 header h1{
@@ -20,7 +23,7 @@ font-weight:bold;
 font-size: 36px;
 color:#FCE138;
 margin: 0;
-display: inline;
+
 }
 
 header a {
@@ -28,11 +31,11 @@ header a {
   color: #FCE138;
 }
 header nav {
-  float: right;
   margin: 7px 0;
 }
 header nav ul li{
   display: inline;
+
 }
 
 header nav ul li a {
