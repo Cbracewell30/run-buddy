@@ -263,3 +263,13 @@ font-size: 38px;
 .contact-info a {
   color: #fce138;
 }
+
+/* Adding stylign to Hero Paragraph */
+.hero-text h2{
+  color: #fce138;
+}
+
+.hero-text {
+  position: absolute;
+  float: left;
+}
