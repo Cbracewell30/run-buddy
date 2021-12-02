@@ -15,7 +15,7 @@ header {
   background-color: #39a6b2;
   display: flex;
 flex-wrap: wrap;
-justify-content:space-between
+justify-content:space-between;
 }
 
 header h1{
@@ -30,22 +30,23 @@ header a {
   text-decoration: none;
   color: #FCE138;
 }
+
 header nav {
   margin: 7px 0;
 }
+
 header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items:center;
   list-style: none;
-
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight:lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 /* adding style to the footer*/
@@ -54,34 +55,35 @@ footer {
   background: #FCE138;
   width: 100%;
   padding: 40px 35px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
 
 
 footer h2 {
   color: #024e76;
-  display: inline;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float:right;
-  line-height: 1.5;
+    line-height: 1.5;
   text-align: right;
 }
 
 footer a{
-
-  color: #024e76;
+   color: #024e76;
 }
 
 /* Hero style Start*/
 .hero {
-  background-image: url("../images/hero-bg.jpg") ;
-  height: 600px;  
+  background-image: url("../images/hero-bg.jpg") ;  
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 /* Hero Style Ends*/
 
@@ -90,14 +92,9 @@ footer a{
 color:#024e76;
 background-color: #FCE138;
 padding: 20px;
-width: 500px;
-float: right;
 border-style: solid;
 border-width:3px;
 border-color:#024e76;
-bottom: 120px;
-right: 140px;
-position: absolute;
 }
 section {
   padding: 60px;
@@ -274,9 +271,16 @@ font-size: 38px;
 /* Adding stylign to Hero Paragraph */
 .hero-text h2{
   color: #fce138;
+  font-style: italic;
+  font-size: 55px;
 }
 
 .hero-text {
-  position: absolute;
-  float: left;
+  width: 35%;
+  text-align: right;
+  margin:3.5% ;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
 }
+
